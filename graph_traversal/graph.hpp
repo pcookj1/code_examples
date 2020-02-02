@@ -1,5 +1,10 @@
-// Winter 2019 - Patrick Cook
-// Interace for undirected graph related classes and methods
+/* =======================================================
+*  Winter 2019 - Patrick Cook
+*  Interace for undirected graph related classes and methods
+========================================================*/
+
+#ifndef GRAPH_H
+#define GRAPH_H
 
 #include <list>
 
@@ -13,7 +18,9 @@ class Graph {
         Graph(int numV);
         void addEdge(int v, int w);
         void printBFS(int root);
-        void printDFS(int root);
+        //void printDFS(int root); future implementation
 };
+
+#endif
 
 

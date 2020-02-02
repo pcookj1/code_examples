@@ -1,9 +1,12 @@
-// Winter 2019 - Patrick Cook
-// Breadth First Traversal for a simple, undirected graph
+/*========================================================
+* Winter 2019 - Patrick Cook
+* Breadth First Traversal for a simple, undirected graph
+========================================================*/
 
 #include "graph.hpp"
 
 int main() {
+    // Construct simple, undirected graph with 10 vertices
     Graph G(10);
     G.addEdge(0,1);
     G.addEdge(0,2);

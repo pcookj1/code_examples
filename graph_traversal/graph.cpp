@@ -1,11 +1,12 @@
-/*  Winter 2019 - Patrick Cook
-    Implementation for graph traversal methods (Breadth first search)
+/*===================================================================
+* Winter 2019 - Patrick Cook
+* Implementation for graph traversal methods (Breadth first search)
 
-    Print breadth-first search starting from select root
-    # start at root
-    # visit children of root
-    # visit children of children
-*/
+* Print breadth-first search starting from select root
+*   start at root
+*   visit children of root
+*   visit children of children
+====================================================================*/
 
 #include "graph.hpp"
 #include <list>
@@ -47,7 +48,4 @@ void Graph::printBFS(int root) {
         }
     }
     std::cout << "\n";
-}
-void Graph::printDFS(int root) {
-
 }
