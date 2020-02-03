@@ -1,7 +1,7 @@
 Patrick Cook
 pcookj1
 
-The following examples are provided:
-    *A breadth-first search graph traversal
-    *An infix to postfix expression converter using data structures *NEEDS MASSIVE CLEANUP*
-    *A linked list implementation using pointers
+The following code examples are provided:
+   A breadth-first search graph traversal. A toy project a did in the winter of 2019
+   An infix to postfix expression converter using data structures from Spring 2017 - My coding has improved very significantly. 
+   A linked list implementation using pointers which was recently cleaned up
